@@ -12034,4 +12034,505 @@ LogStats:             FDebug::EnsureFailed -  0.100 s
 	Vive_Pawn_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.Vive_Pawn_C_0
 	Function /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn_C:ExecuteUbergraph_Vive_Pawn:0B08
 [2017.05.05-03.54.57:986][378]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
-[2017.05.05-03.55.06:095][741]PIE:Error: Er
+[2017.05.05-03.55.06:095][741]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
+[2017.05.05-03.55.08:820][863]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
+[2017.05.05-03.55.57:431][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-03.55.57:591][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.03.14:244][ 87]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Vive/Maps/default' took 0.020
+[2017.05.05-04.03.14:245][ 87]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vive/Blueprints/Vive_Pawn] ([1] browsable assets)...
+[2017.05.05-04.03.14:262][ 87]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn]
+[2017.05.05-04.03.14:262][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vive/Blueprints/Vive_Pawn]
+[2017.05.05-04.03.14:336][ 87]LogSavePackage: Save=67.70ms
+[2017.05.05-04.03.14:336][ 87]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Vive_Pawn_Auto6FE969A6F4256BEE05E381982B455831F.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Autosaves/Game/Vive/Blueprints/Vive_Pawn_Auto6.uasset'
+[2017.05.05-04.03.14:337][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Autosaves/Game/Vive/Blueprints/Vive_Pawn_Auto6.uasset
+[2017.05.05-04.03.14:337][ 87]LogFileHelpers: Auto-saving content packages took 0.093
+[2017.05.05-04.11.42:282][312]Running E:/Unreal Engine/UE_4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/vive_archery_ue4-master/vive_archery_ue4-master/vive_archery_ue4.uproject" -game -rocket -progress
+[2017.05.05-04.11.42:586][312]Discovering modules, targets and source code for project...
+[2017.05.05-04.11.50:274][312]LogHotReload: Recompiling module vive_archery_ue4...
+[2017.05.05-04.11.50:285][312]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.05.05-04.11.50:295][312]Recompiling vive_archery_ue4...
+[2017.05.05-04.11.50:295][312]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe vive_archery_ue4 -Module vive_archery_ue4 Win64 Development -editorrecompile -canskiplink "E:/vive_archery_ue4-master/vive_archery_ue4-master/vive_archery_ue4.uproject"  -2015]
+[2017.05.05-04.12.44:409][312]Performing full C++ include scan (hot reloading a new target)
+Creating makefile for hot reloading vive_archery_ue4 (no existing makefile)
+Compiling game modules for hot reload
+Performing 6 actions (4 in parallel)
+[3/6] Resource ModuleVersionResource.rc.inl
+[2/6] Resource PCLaunch.rc
+PCH.vive_archery_ue4.h.cpp
+vive_archery_ue4.cpp
+MyClass.cpp
+[6/6] Link UE4Editor-vive_archery_ue4.dll
+   Creating library E:\vive_archery_ue4-master\vive_archery_ue4-master\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-vive_archery_ue4.lib and object E:\vive_archery_ue4-master\vive_archery_ue4-master\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-vive_archery_ue4.exp
+Total build time: 53.98 seconds
+
+[2017.05.05-04.12.44:410][312]CompilerResultsLog: New page: Compilation - May 4, 2017, 1:12:44 PM
+[2017.05.05-04.12.44:421][312]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2017.05.05-04.12.44:421][312]CompilerResultsLog: Info Creating makefile for hot reloading vive_archery_ue4 (no existing makefile)
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info [3/6] Resource ModuleVersionResource.rc.inl
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info [2/6] Resource PCLaunch.rc
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info PCH.vive_archery_ue4.h.cpp
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info vive_archery_ue4.cpp
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info MyClass.cpp
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info [6/6] Link UE4Editor-vive_archery_ue4.dll
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info    Creating library E:\vive_archery_ue4-master\vive_archery_ue4-master\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-vive_archery_ue4.lib and object E:\vive_archery_ue4-master\vive_archery_ue4-master\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-vive_archery_ue4.exp
+[2017.05.05-04.12.44:422][312]CompilerResultsLog: Info Total build time: 53.98 seconds
+[2017.05.05-04.12.44:422][312]LogMainFrame: MainFrame: Module compiling took 54.136 seconds
+[2017.05.05-04.12.44:422][312]Reloading module vive_archery_ue4 after successful compile.
+[2017.05.05-04.12.44:878][312]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2166 classes and 436 folders.
+[2017.05.05-04.12.52:581][321]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/vive_archery_ue4-master/vive_archery_ue4-master/Source/vive_archery_ue4/MyClass.h'
+[2017.05.05-04.12.52:643][321]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/vive_archery_ue4-master/vive_archery_ue4-master/Source/vive_archery_ue4/MyClass.cpp'
+[2017.05.05-04.37.31:253][969]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.05.05-04.37.38:339][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.37.38:339][762]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.05-04.37.38:339][762]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_Blueprint_0 before play...
+[2017.05.05-04.37.38:484][762]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (1 blueprints)
+[2017.05.05-04.37.38:484][762]PIE: New page: PIE session: default (May 4, 2017, 1:37:38 PM)
+[2017.05.05-04.37.38:484][762]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.05-04.37.38:640][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156209s)
+[2017.05.05-04.37.38:641][762]LogAIModule: Creating AISystem for world default
+[2017.05.05-04.37.38:641][762]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2017.05.05-04.37.38:642][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.157665s)
+[2017.05.05-04.37.38:672][762]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.05-04.37.38:692][762]LogInit: FAudioDevice initialized.
+[2017.05.05-04.37.38:766][762]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.05-04.37.38:796][762]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.04-21.37.38
+[2017.05.05-04.37.38:796][762]LogWorld: Bringing up level for play took: 0.029359
+[2017.05.05-04.37.38:797][762]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-04.37.38:797][762]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-04.37.38:797][762]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-04.37.38:799][762]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-04.37.38:803][762]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.326
+[2017.05.05-04.37.38:812][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.37.40:064][814]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.37.40:210][814]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.37.52:164][ 97]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.05-04.37.52:197][ 97]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2017.05.05-04.37.52:985][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.37.52:985][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.05-04.37.52:985][182]PIE: New page: PIE session: default (May 4, 2017, 1:37:52 PM)
+[2017.05.05-04.37.52:985][182]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.05-04.37.53:138][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152512s)
+[2017.05.05-04.37.53:138][182]LogAIModule: Creating AISystem for world default
+[2017.05.05-04.37.53:138][182]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2017.05.05-04.37.53:139][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.153743s)
+[2017.05.05-04.37.53:163][182]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.05-04.37.53:180][182]LogInit: FAudioDevice initialized.
+[2017.05.05-04.37.53:254][182]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.05-04.37.53:282][182]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.04-21.37.53
+[2017.05.05-04.37.53:297][182]LogWorld: Bringing up level for play took: 0.042587
+[2017.05.05-04.37.53:298][182]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-04.37.53:298][182]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-04.37.53:298][182]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-04.37.53:305][182]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-04.37.53:310][182]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.833
+[2017.05.05-04.37.53:311][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.38.04:694][687]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.38.04:827][687]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-04.38.07:324][901]LogEditorViewport: Clicking on Actor (LMB): Vive_Pawn_C (Vive_Pawn)
+[2017.05.05-04.38.08:201][980]LogEditorViewport: Clicking on Actor (context menu): Vive_Pawn_C (Vive_Pawn)
+[2017.05.05-04.39.04:084][351]Cmd: TRANSACTION UNDO
+[2017.05.05-04.39.04:084][351]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.05-04.39.05:253][479]Cmd: TRANSACTION UNDO
+[2017.05.05-04.39.05:253][479]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.05-04.39.05:882][549]Cmd: TRANSACTION UNDO
+[2017.05.05-04.39.05:882][549]LogEditorTransaction: Undo Delete selection
+[2017.05.05-04.39.07:001][667]Cmd: TRANSACTION UNDO
+[2017.05.05-04.39.07:001][667]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.05-04.39.07:610][731]Cmd: TRANSACTION UNDO
+[2017.05.05-04.39.07:610][731]LogEditorTransaction: Undo Create Actors
+[2017.05.05-04.39.08:054][756]Cmd: TRANSACTION UNDO
+[2017.05.05-04.39.08:054][756]LogEditorTransaction: Undo Select Brush Surface
+[2017.05.05-04.39.40:386][569]LogSavePackage: Save=1257.87ms
+[2017.05.05-04.39.40:386][569]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/default_Auto7EBA362644523E69C55C40890D443890B.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Autosaves/Game/Vive/Maps/default_Auto7.umap'
+[2017.05.05-04.39.40:388][569]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Autosaves/Game/Vive/Maps/default_Auto7.umap
+[2017.05.05-04.39.40:393][569]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Vive/Maps/default' took 1.581
+[2017.05.05-04.39.40:393][569]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.581
+[2017.05.05-04.52.34:759][893]LogHotReload: New module detected: UE4Editor-vive_archery_ue4-3125.dll
+[2017.05.05-05.03.39:675][957]LogHotReload: New module detected: UE4Editor-vive_archery_ue4-1988.dll
+[2017.05.05-05.03.41:689][964]LogHotReload: Starting Hot-Reload from IDE
+[2017.05.05-05.03.41:716][964]Module being reloaded does not support dynamic unloading -- abandoning existing loaded module so that we can load the recompiled version!
+[2017.05.05-05.03.42:040][964]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2166 classes and 436 folders.
+[2017.05.05-05.03.42:050][964]Display: HotReload took  0.4s.
+[2017.05.05-05.17.05:408][732]BlueprintLog: New page: Compile BP_Arrow
+[2017.05.05-05.17.09:130][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.17.09:130][144]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.05-05.17.09:130][144]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_Blueprint_0 before play...
+[2017.05.05-05.17.09:266][144]LogPlayLevel: PlayLevel: Blueprint regeneration took 135 ms (1 blueprints)
+[2017.05.05-05.17.09:266][144]PIE: New page: PIE session: default (May 4, 2017, 2:17:09 PM)
+[2017.05.05-05.17.09:266][144]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.05-05.17.09:419][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152675s)
+[2017.05.05-05.17.09:419][144]LogAIModule: Creating AISystem for world default
+[2017.05.05-05.17.09:420][144]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2017.05.05-05.17.09:420][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.154242s)
+[2017.05.05-05.17.09:448][144]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.05-05.17.09:469][144]LogInit: FAudioDevice initialized.
+[2017.05.05-05.17.09:534][144]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.05-05.17.09:565][144]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.04-22.17.09
+[2017.05.05-05.17.09:565][144]LogWorld: Bringing up level for play took: 0.030213
+[2017.05.05-05.17.09:566][144]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-05.17.09:566][144]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-05.17.09:566][144]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-05.17.09:568][144]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-05.17.09:571][144]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 1.094
+[2017.05.05-05.17.09:572][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.17.44:519][748]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
+[2017.05.05-05.17.50:775][ 28]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
+[2017.05.05-05.17.57:767][341]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
+[2017.05.05-05.18.03:508][598]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
+[2017.05.05-05.18.16:622][185]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
+[2017.05.05-05.18.25:754][594]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property UpdatedPrimitive from function: 'ExecuteUbergraph_Vive_Pawn' from node: Set Simulate Physics in graph: CustomEvents in object: Vive_Pawn with description: Accessed None trying to read property UpdatedPrimitive
+[2017.05.05-05.18.53:100][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.18.53:230][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.19.00:811][710]BlueprintLog: New page: Compile BP_Arrow
+[2017.05.05-05.21.22:565][546]BlueprintLog: New page: Compile Vive_Pawn
+[2017.05.05-05.21.23:693][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.21.23:693][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.05-05.21.23:693][642]PIE: New page: PIE session: default (May 4, 2017, 2:21:23 PM)
+[2017.05.05-05.21.23:693][642]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.05-05.21.23:843][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150227s)
+[2017.05.05-05.21.23:844][642]LogAIModule: Creating AISystem for world default
+[2017.05.05-05.21.23:844][642]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2017.05.05-05.21.23:844][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.151617s)
+[2017.05.05-05.21.23:872][642]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.05-05.21.23:889][642]LogInit: FAudioDevice initialized.
+[2017.05.05-05.21.23:974][642]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.05-05.21.24:004][642]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.04-22.21.24
+[2017.05.05-05.21.24:004][642]LogWorld: Bringing up level for play took: 0.029187
+[2017.05.05-05.21.24:005][642]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-05.21.24:005][642]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-05.21.24:005][642]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-05.21.24:007][642]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-05.21.24:015][642]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.462
+[2017.05.05-05.21.24:016][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.23.21:459][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.23.21:612][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.23.25:397][384]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.05.05-05.24.43:521][660]LogEditorTransaction: Undo Create Pin Link
+[2017.05.05-05.25.14:473][336]BlueprintLog: New page: Compile Vive_Pawn
+[2017.05.05-05.25.14:848][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Vive/Maps/default' took 0.018
+[2017.05.05-05.25.14:849][337]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vive/Blueprints/Vive_Pawn] ([1] browsable assets)...
+[2017.05.05-05.25.14:860][337]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Vive/Blueprints/Vive_Pawn.Vive_Pawn]
+[2017.05.05-05.25.14:860][337]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vive/Blueprints/Vive_Pawn]
+[2017.05.05-05.25.14:932][337]LogSavePackage: Save=66.36ms
+[2017.05.05-05.25.14:932][337]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Vive_Pawn_Auto85E1CE5134724BD8D76F042BA4951A0A3.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Autosaves/Game/Vive/Blueprints/Vive_Pawn_Auto8.uasset'
+[2017.05.05-05.25.14:933][337]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Autosaves/Game/Vive/Blueprints/Vive_Pawn_Auto8.uasset
+[2017.05.05-05.25.14:933][337]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vive/Blueprints/BP_Arrow] ([1] browsable assets)...
+[2017.05.05-05.25.14:945][337]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Vive/Blueprints/BP_Arrow.BP_Arrow]
+[2017.05.05-05.25.14:945][337]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vive/Blueprints/BP_Arrow]
+[2017.05.05-05.25.14:966][337]LogSavePackage: Save=16.11ms
+[2017.05.05-05.25.14:966][337]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/BP_Arrow_Auto84781D48C4351B365E7CB0696CD34792C.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Autosaves/Game/Vive/Blueprints/BP_Arrow_Auto8.uasset'
+[2017.05.05-05.25.14:967][337]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Autosaves/Game/Vive/Blueprints/BP_Arrow_Auto8.uasset
+[2017.05.05-05.25.14:967][337]LogFileHelpers: Auto-saving content packages took 0.118
+[2017.05.05-05.30.52:656][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Maps/default" FILE="../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Maps/default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.05-05.30.53:925][846]LogSavePackage: Save=1238.08ms
+[2017.05.05-05.30.53:925][846]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/default7955B0534D5F431A59864AA77AF1CEC9.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Maps/default.umap'
+[2017.05.05-05.30.53:932][846]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Maps/default.umap
+[2017.05.05-05.30.53:988][846]LogFileHelpers: Saving map 'default' took 1.373
+[2017.05.05-05.30.53:990][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.05.05-05.30.54:057][846]LogSavePackage: Save=61.87ms
+[2017.05.05-05.30.54:057][846]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Vive_Pawn5657991D4A33B1B2719E2180CD1D31C2.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.05.05-05.30.54:060][846]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.05.05-05.30.54:064][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/BP_Arrow" FILE="../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/BP_Arrow.uasset" SILENT=true
+[2017.05.05-05.30.54:078][846]LogSavePackage: Save=9.37ms
+[2017.05.05-05.30.54:078][846]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/BP_Arrow8BC682CD4A1E4F3C4385C7A70BF7796E.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/BP_Arrow.uasset'
+[2017.05.05-05.30.54:081][846]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/BP_Arrow.uasset
+[2017.05.05-05.30.54:083][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Enum_GameStatus" FILE="../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Enum_GameStatus.uasset" SILENT=true
+[2017.05.05-05.30.54:092][846]LogSavePackage: Save=4.27ms
+[2017.05.05-05.30.54:092][846]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Enum_GameStatus8C60110C45976228EE8D8BBCB12A5216.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Enum_GameStatus.uasset'
+[2017.05.05-05.30.54:095][846]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Enum_GameStatus.uasset
+[2017.05.05-05.33.03:805][538]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.33.03:805][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.05-05.33.03:805][538]PIE: New page: PIE session: default (May 4, 2017, 2:33:03 PM)
+[2017.05.05-05.33.03:805][538]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.05-05.33.03:975][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.169977s)
+[2017.05.05-05.33.03:976][538]LogAIModule: Creating AISystem for world default
+[2017.05.05-05.33.03:976][538]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2017.05.05-05.33.03:976][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.171528s)
+[2017.05.05-05.33.04:008][538]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.05-05.33.04:028][538]LogInit: FAudioDevice initialized.
+[2017.05.05-05.33.04:113][538]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.05-05.33.04:145][538]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.04-22.33.04
+[2017.05.05-05.33.04:145][538]LogWorld: Bringing up level for play took: 0.031012
+[2017.05.05-05.33.04:146][538]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-05.33.04:146][538]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.05-05.33.04:146][538]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-05.33.04:148][538]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.05-05.33.04:156][538]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.321
+[2017.05.05-05.33.04:156][538]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.34.34:469][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.34.34:620][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.05-05.37.08:251][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vive/Blueprints/Vive_Pawn" FILE="../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Vive_Pawn.uasset" SILENT=true
+[2017.05.05-05.37.08:342][210]LogSavePackage: Save=68.31ms
+[2017.05.05-05.37.08:342][210]LogSavePackage: Moving '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Saved/Vive_PawnA294213D456729F63D3119B008C9314E.tmp' to '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.05.05-05.37.08:344][210]LogSavePackage:Display: Finished SavePackage ../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.05.05-05.37.20:952][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.05-05.37.21:172][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.05-05.37.21:452][ 29]Cmd: QUIT_EDITOR
+[2017.05.05-05.37.21:892][ 29]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.05-05.37.21:919][ 29]LogExit: Preparing to exit.
+[2017.05.05-05.37.23:163][ 29]LogDirectoryWatcher: A directory notification for 'E:/vive_archery_ue4-master/vive_archery_ue4-master/Content/' was aborted.
+[2017.05.05-05.37.23:347][ 29]LogExit: Editor shut down
+[2017.05.05-05.37.23:348][ 29]LogExit: Transaction tracking system shut down
+[2017.05.05-05.37.23:620][ 29]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.05-05.37.23:621][ 29]LogExit: Object subsystem successfully closed.
+[2017.05.05-05.37.23:658][ 29]LogD3D11RHI: Shutdown
+[2017.05.05-05.37.23:658][ 29]LogD3D11RHI: CleanupD3DDevice
+[2017.05.05-05.37.23:664][ 29]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.05-05.37.23:672][ 29]LogModuleManager: Shutting down and abandoning module vive_archery_ue4 (244)
+[2017.05.05-05.37.23:672][ 29]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (243)
+[2017.05.05-05.37.23:672][ 29]LogModuleManager: Shutting down and abandoning module BlueprintGraph (242)
+[2017.05.05-05.37.23:672][ 29]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (241)
+[2017.05.05-05.37.23:673][ 29]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (240)
+[2017.05.05-05.37.23:673][ 29]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (239)
+[2017.05.05-05.37.23:673][ 29]LogModuleManager: Shutting down and abandoning module CrashTracker (238)
+[2017.05.05-05.37.23:673][ 29]LogModuleManager: Shutting down and abandoning module SceneOutliner (237)
+[2017.05.05-05.37.23:673][ 29]LogModuleManager: Shutting down and abandoning module WidgetCarousel (236)
+[2017.05.05-05.37.23:673][ 29]LogModuleManager: Shutting down and abandoning module AddContentDialog (235)
+[2017.05.05-05.37.23:673][ 29]LogDirectoryWatcher: A directory notification for 'E:/Unreal Engine/UE_4.13/FeaturePacks/' was aborted.
+[2017.05.05-05.37.23:678][ 29]LogModuleManager: Shutting down and abandoning module GameplayTags (234)
+[2017.05.05-05.37.23:678][ 29]LogModuleManager: Shutting down and abandoning module EditorWidgets (233)
+[2017.05.05-05.37.23:678][ 29]LogModuleManager: Shutting down and abandoning module CollectionManager (232)
+[2017.05.05-05.37.23:679][ 29]LogDirectoryWatcher: A directory notification for 'E:/vive_archery_ue4-master/vive_archery_ue4-master/Content/Collections/' was aborted.
+[2017.05.05-05.37.23:679][ 29]LogDirectoryWatcher: A directory notification for 'E:/vive_archery_ue4-master/vive_archery_ue4-master/Content/Developers/StudentUser/Collections/' was aborted.
+[2017.05.05-05.37.23:679][ 29]LogDirectoryWatcher: A directory notification for 'E:/vive_archery_ue4-master/vive_archery_ue4-master/Saved/Collections/' was aborted.
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module StatsViewer (231)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module FoliageEdit (230)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module LandscapeEditor (229)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (228)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module ActorPickerMode (227)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module GeometryMode (226)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module TextureAlignMode (225)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module BspMode (224)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module HardwareSurvey (223)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (222)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module SequenceRecorder (221)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module AutomationWorker (220)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (219)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module PlacementMode (218)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (217)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (216)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (215)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (214)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (213)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module Media (212)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (211)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (210)
+[2017.05.05-05.37.23:679][ 29]LogModuleManager: Shutting down and abandoning module CharacterAI (209)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module SmartSnapping (208)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module SessionServices (207)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module ViewportSnapping (206)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module ViewportInteraction (205)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module LogVisualizer (204)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (203)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module IntroTutorials (202)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (201)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (200)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (199)
+[2017.05.05-05.37.23:680][ 29]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (198)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (197)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (196)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (195)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.05.05-05.37.24:240][ 29]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module InputBindingEditor (179)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (178)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module SettingsEditor (177)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module ProjectLauncher (176)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module SessionFrontend (175)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module ProfilerClient (174)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (173)
+[2017.05.05-05.37.24:241][ 29]LogModuleManager: Shutting down and abandoning module DeviceManager (172)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module AutomationController (171)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module AutomationWindow (170)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module Layers (169)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (168)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module DetailCustomizations (167)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module PackagesDialog (166)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module AnimGraph (165)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module Persona (164)
+[2017.05.05-05.37.24:297][ 29]LogModuleManager: Shutting down and abandoning module Kismet (163)
+[2017.05.05-05.37.24:307][ 29]LogModuleManager: Shutting down and abandoning module GraphEditor (162)
+[2017.05.05-05.37.24:307][ 29]LogModuleManager: Shutting down and abandoning module ClassViewer (161)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module Toolbox (160)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module ModuleUI (159)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module MovieSceneTools (158)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module OutputLog (157)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module GammaUI (156)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module Documentation (155)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module Niagara (154)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (153)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module AnalyticsET (152)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module PortalServices (151)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module PortalRpc (150)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module MessagingRpc (149)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module GameplayDebugger (148)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module AITestSuite (147)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module AIModule (146)
+[2017.05.05-05.37.24:318][ 29]LogModuleManager: Shutting down and abandoning module ProfilerService (145)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module TaskGraph (144)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module SubstanceEditor (143)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module SlateRemote (142)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module SteamVRController (141)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module SteamVR (140)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (139)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (138)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module OculusLibrary (137)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module OculusInput (136)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (135)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module CableComponent (134)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (133)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (131)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module ShadowMocapEditor (130)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module ShadowMocap (129)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module RunebergVRPlugin (128)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module GestureTrackerVR (127)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2017.05.05-05.37.24:489][ 29]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2017.05.05-05.37.24:490][ 29]LogDirectoryWatcher: A directory notification for 'E:/vive_archery_ue4-master/vive_archery_ue4-master/Binaries/Win64' was aborted.
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2017.05.05-05.37.24:490][ 29]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2017.05.05-05.37.24:491][ 29]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2017.05.05-05.37.24:492][ 29]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2017.05.05-05.37.24:492][ 29]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2017.05.05-05.37.24:593][ 29]LogModuleManager: Shutting down and abandoning module TcpMessaging (96)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2017.05.05-05.37.24:693][ 29]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2017.05.05-05.37.24:694][ 29]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2017.05.05-05.37.24:694][ 29]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2017.05.05-05.37.24:694][ 29]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2017.05.05-05.37.24:694][ 29]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2017.05.05-05.37.24:694][ 29]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2017.05.05-05.37.24:694][ 29]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2017.05.05-05.37.24:694][ 29]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2017.05.05-05.37.24:694][ 29]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2017.05.05-05.37.24:697][ 29]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2017.05.05-05.37.24:697][ 29]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2017.05.05-05.37.24:697][ 29]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2017.05.05-05.37.24:697][ 29]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2017.05.05-05.37.24:697][ 29]LogModuleManager: Shutting down and abandoning module Core (67)
+[2017.05.05-05.37.24:697][ 29]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2017.05.05-05.37.24:697][ 29]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.05-05.37.24:697][ 29]LogDirectoryWatcher: A directory notification for '../../../../../vive_archery_ue4-master/vive_archery_ue4-master/Content/' was aborted.
+[2017.05.05-05.37.24:698][ 29]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.05-05.37.24:699][ 29]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/GestureTrackerVR/Content/' was aborted.
+[2017.05.05-05.37.24:702][ 29]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2017.05.05-05.37.24:917][ 29]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2017.05.05-05.37.24:917][ 29]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2017.05.05-05.37.24:917][ 29]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2017.05.05-05.37.24:917][ 29]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2017.05.05-05.37.24:944][ 29]LogDerivedDataCache: Shutdown
+[2017.05.05-05.37.24:944][ 29]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2017.05.05-05.37.24:944][ 29]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2017.05.05-05.37.24:944][ 29]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2017.05.05-05.37.24:944][ 29]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2017.05.05-05.37.24:944][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2017.05.05-05.37.24:944][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2017.05.05-05.37.24:944][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2017.05.05-05.37.24:944][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.05.05-05.37.24:945][ 29]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.05-05.37.24:945][ 29]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.05.05-05.37.24:945][ 29]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.05-05.37.24:945][ 29]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDDC15FF7-4B8D-B2B2-7BD3-DD9BB6A88066%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=e0567b9843440c4d5540648166bf89c1%7C11c5ab5681ba4d129972dce7e99fe80a%7Cd16070ab-418c-45f1-9218-3fd00383b244&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.05-05.37.24:966][ 29]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.05.05-05.37.24:967][ 29]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.05.05-05.37.24:967][ 29]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.05.05-05.37.24:967][ 29]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.05.05-05.37.24:967][ 29]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.05.05-05.37.24:980][ 29]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.05.05-05.37.24:982][ 29]LogExit: Exiting.
+[2017.05.05-05.37.24:994][ 29]Log file closed, 05/04/17 22:37:24

@@ -3,6 +3,13 @@
 	"EngineAssociation": "{55C68A70-4C99-AC73-0DF0-CF9765C15804}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "vive_archery_ue4",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "GestureTrackerVR",
