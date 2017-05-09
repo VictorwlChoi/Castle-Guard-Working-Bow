@@ -2,7 +2,7 @@
 	"TargetName" : "vive_archery_ue4Editor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "e3df337f-5dcc-46ec-afff-50a9cb1f4ee0",
+	"BuildId" : "",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -15,15 +15,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-vive_archery_ue4-4123.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-vive_archery_ue4.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-vive_archery_ue4-4123.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-vive_archery_ue4.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-vive_archery_ue4-4123.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-vive_archery_ue4.lib",
 			"Type" : "ImportLibrary"
 		}
 	],
