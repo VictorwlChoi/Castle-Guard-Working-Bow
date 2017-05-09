@@ -1,0 +1,16 @@
+Things to do:
+
+-Make sure the arrow can only be strung at the right angle (Controller must be horizontal.)
+	.Print rotation of arrow when controller is horizontal
+	.Place a conditional wherever the function to attach the arrow is
+
+
+-Change the way the arrow drops
+	.Make it front heavy
+	.Can it be done with Projectile Movement *or* Physics?
+
+-
+
+
+
+
