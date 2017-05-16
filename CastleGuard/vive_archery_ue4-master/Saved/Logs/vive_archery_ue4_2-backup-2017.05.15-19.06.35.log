@@ -1,0 +1,641 @@
+﻿Log file open, 05/08/17 19:41:18
+LogInit:Display: Running engine for game: vive_archery_ue4
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(515708986) SRandInit(515708986).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069435
+LogPluginManager: Loaded Plugin Paper2D, From E:/Unreal Engine/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin GestureTrackerVR, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Marketplace/GestureTrackerVR/GestureTrackerVR.uplugin
+LogPluginManager: Loaded Plugin RunebergVRPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Marketplace/RunebergVRPlugin/RunebergVRPlugin.uplugin
+LogPluginManager: Loaded Plugin ShadowMocap, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Marketplace/ShadowMocap/ShadowMocap.uplugin
+LogPluginManager: Loaded Plugin Substance, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From E:/Unreal Engine/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From E:/Unreal Engine/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From E:/Unreal Engine/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: 
+LogInit: Base directory: E:/Unreal Engine/UE_4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogStats: FPlatformStackWalk::StackWalkAndDump -  0.004 s
+LogOutputDevice:Error: === Handled ensure: ===
+LogOutputDevice:Error: 
+LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Core\Private\Misc\ConfigCacheIni.cpp] [Line: 3448]
+LogOutputDevice:Error: The ini file 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Saved/Config/Windows/Engine.ini' tries to set the console variable 'showflag.decals' marked with ECVF_Cheat, this is only allowed in consolevariables.ini
+LogOutputDevice:Error: Stack: 
+LogOutputDevice:Error: UE4Editor-Core.dll
+LogOutputDevice:Error: UE4Editor-Core.dll
+LogOutputDevice:Error: UE4Editor-Core.dll
+LogOutputDevice:Error: UE4Editor-Core.dll
+LogOutputDevice:Error: UE4Editor-Engine.dll
+LogOutputDevice:Error: UE4Editor-Core.dll
+LogOutputDevice:Error: UE4Editor-Engine.dll
+LogOutputDevice:Error: UE4Editor-Engine.dll
+LogOutputDevice:Error: UE4Editor.exe
+LogOutputDevice:Error: UE4Editor.exe
+LogOutputDevice:Error: UE4Editor.exe
+LogOutputDevice:Error: UE4Editor.exe
+LogOutputDevice:Error: UE4Editor.exe
+LogOutputDevice:Error: KERNEL32.DLL
+LogOutputDevice:Error: ntdll.dll
+LogOutputDevice:Error: ntdll.dll
+LogOutputDevice:Error: 
+LogStats:                SubmitErrorReport -  0.000 s
+LogStats:                    SendNewReport -  0.094 s
+LogStats:             FDebug::EnsureFailed -  0.099 s
+[2017.05.09-02.41.18:490][  0]LogConsoleManager:Display: Setting the console variable 'r.SeparateTranslucency' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.ScreenPercentage' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.PostProcessAAQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.AmbientOcclusionLevels' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.DepthOfFieldQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.LensFlareQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.SceneColorFringeQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.EyeAdaptationQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.BloomQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.FastBlurThreshold' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.MaxAnisotropy' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.SSR.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.SceneColorFormat' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogConsoleManager:Display: Setting the console variable 'r.TranslucencyVolumeBlur' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.09-02.41.18:492][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.09-02.41.18:492][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.09-02.41.18:504][  0]LogInit: Computer: AI911LAB238VIV
+[2017.05.09-02.41.18:504][  0]LogInit: User: StudentUser
+[2017.05.09-02.41.18:504][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.09-02.41.18:504][  0]LogInit: High frequency timer resolution =3.410079 MHz
+[2017.05.09-02.41.18:505][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.09-02.41.18:505][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.09-02.41.18:505][  0]LogMemory: Process Physical Memory: 263.80 MB used, 263.80 MB peak
+[2017.05.09-02.41.18:505][  0]LogMemory: Process Virtual Memory: 264.61 MB used, 264.61 MB peak
+[2017.05.09-02.41.18:505][  0]LogMemory: Physical Memory: 7144.11 MB used, 16291.25 MB total
+[2017.05.09-02.41.18:505][  0]LogMemory: Virtual Memory: 638.34 MB used, 134217728.00 MB total
+[2017.05.09-02.41.18:530][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.09-02.41.19:055][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.09-02.41.19:076][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.05.09-02.41.19:076][  0]LogD3D11RHI:       4058/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.09-02.41.19:077][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.09-02.41.19:077][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.09-02.41.19:077][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.09-02.41.19:081][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.09-02.41.19:081][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.09-02.41.19:081][  0]LogWindows: EnumDisplayDevices:
+[2017.05.09-02.41.19:081][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.05.09-02.41.19:081][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.09-02.41.19:082][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.09-02.41.19:082][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.09-02.41.19:082][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.09-02.41.19:082][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.05.09-02.41.19:082][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.05.09-02.41.19:082][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.05.09-02.41.19:082][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.09-02.41.19:095][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.09-02.41.19:104][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.09-02.41.19:104][  0]LogShaderCompilers: Guid format shader working directory is -56 characters bigger than the processId version (C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Intermediate/Shaders/WorkingDirectory/3444/).
+[2017.05.09-02.41.19:104][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/STUDEN~1/AppData/Local/Temp/UnrealShaderWorkingDir/EB7BE3364FF1268EB4018AB37B9A757D/'.
+[2017.05.09-02.41.19:104][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.09-02.41.20:028][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.09-02.41.20:035][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.09-02.41.20:042][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.09-02.41.20:049][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.09-02.41.20:056][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.09-02.41.20:062][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.09-02.41.20:069][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.09-02.41.20:075][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.09-02.41.20:081][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.09-02.41.20:088][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.09-02.41.20:094][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.09-02.41.20:106][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.09-02.41.20:106][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.09-02.41.20:107][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.09-02.41.20:126][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.09-02.41.20:132][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.09-02.41.20:138][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.09-02.41.20:143][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.09-02.41.20:149][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.09-02.41.20:155][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.09-02.41.20:155][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.09-02.41.20:207][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.09-02.41.20:291][  0]LogDerivedDataCache: Loaded boot cache 0.08s 89MB C:/Users/StudentUser/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.09-02.41.20:291][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/StudentUser/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.05.09-02.41.20:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.09-02.41.20:291][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.09-02.41.20:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.09-02.41.20:291][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.09-02.41.20:307][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.09-02.41.20:318][  0]LogDerivedDataCache: Using Local data cache path C:/Users/StudentUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.09-02.41.20:493][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.09-02.41.20:495][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.09-02.41.20:576][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.09-02.41.20:576][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.09-02.41.20:576][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.05.09-02.41.20:633][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.09-02.41.20:887][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: vive_archery_ue4, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2616931300
+[2017.05.09-02.41.20:922][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.05.09-02.41.20:925][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Marketplace/RunebergVRPlugin/Content/. Error: The system cannot find the file specified. (0x00000002)
+[2017.05.09-02.41.20:965][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.039577 seconds
+[2017.05.09-02.41.20:969][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.05.09-02.41.20:969][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2017.05.09-02.41.20:969][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.09-02.41.20:973][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.09-02.41.21:131][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.09-02.41.21:131][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.09-02.41.21:675][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.05.09-02.41.21:681][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.09-02.41.21:699][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.09-02.41.21:897][  0]SourceControl: Info Source control is disabled
+[2017.05.09-02.41.21:931][  0]SourceControl: Info Source control is disabled
+[2017.05.09-02.41.21:937][  0]SourceControl: Info Source control is disabled
+[2017.05.09-02.41.21:943][  0]SourceControl: Info Source control is disabled
+[2017.05.09-02.41.22:197][  0]LogEngine: Initializing Engine...
+[2017.05.09-02.41.22:217][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.05.09-02.41.22:345][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.09-02.41.22:357][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-02.41.22:367][  0]LogInit: FAudioDevice initialized.
+[2017.05.09-02.41.22:410][  0]LogDerivedDataCache: Saved boot cache 0.04s 89MB C:/Users/StudentUser/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.09-02.41.22:423][  0]LogInit: Texture streaming: Enabled
+[2017.05.09-02.41.22:441][  0]LogInit: Transaction tracking system initialized
+[2017.05.09-02.41.22:456][  0]BlueprintLog: New page: Editor Load
+[2017.05.09-02.41.22:505][  0]LocalizationService: Info Localization service is disabled
+[2017.05.09-02.41.22:563][  0]LogConsoleResponse:Display: 
+[2017.05.09-02.41.22:657][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.09-02.41.22:657][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.09-02.41.22:763][  0]LogFileCache: Scanning file cache for directory 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/' took 0.01s
+[2017.05.09-02.41.22:763][  0]SourceControl: Info Source control is disabled
+[2017.05.09-02.41.22:763][  0]Cmd: MAP LOAD FILE="C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Maps/default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.09-02.41.22:764][  0]LightingResults: New page: Lighting Build
+[2017.05.09-02.41.22:765][  0]MapCheck: New page: Map Check
+[2017.05.09-02.41.22:765][  0]LightingResults: New page: Lighting Build
+[2017.05.09-02.41.23:021][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2017.05.09-02.41.23:021][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2017.05.09-02.41.23:021][  0]LoadErrors:Error: Error /Game/Vive/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body
+[2017.05.09-02.41.23:021][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2017.05.09-02.41.23:021][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2017.05.09-02.41.23:021][  0]LoadErrors:Error: Error /Game/Vive/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo
+[2017.05.09-02.41.23:021][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2017.05.09-02.41.23:021][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2017.05.09-02.41.23:022][  0]LoadErrors:Error: Error /Game/Vive/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2017.05.09-02.41.23:022][  0]LoadErrors:Error: Error /Game/Vive/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2017.05.09-02.41.23:022][  0]LoadErrors:Error: Error /Game/Vive/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2017.05.09-02.41.23:022][  0]LoadErrors:Error: Error /Game/Vive/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2017.05.09-02.41.23:022][  0]LoadErrors:Error: Error /Game/Vive/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2017.05.09-02.41.23:022][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2017.05.09-02.41.23:023][  0]LoadErrors:Error: Error /Game/Vive/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2017.05.09-02.41.23:158][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2017.05.09-02.41.23:158][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2017.05.09-02.41.23:158][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2017.05.09-02.41.23:158][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2017.05.09-02.41.23:158][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2017.05.09-02.41.23:158][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset Referenced by SK_Mannequin
+[2017.05.09-02.41.23:158][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading NULL.
+[2017.05.09-02.41.23:158][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset Referenced by SK_Mannequin
+[2017.05.09-02.41.23:158][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2017.05.09-02.41.23:158][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2017.05.09-02.41.23:158][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading NULL.
+[2017.05.09-02.41.23:158][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2017.05.09-02.41.23:158][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2017.05.09-02.41.23:159][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2017.05.09-02.41.23:159][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading NULL.
+[2017.05.09-02.41.23:159][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2017.05.09-02.41.23:496][  0]LogAIModule: Creating AISystem for world default
+[2017.05.09-02.41.23:575][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.09-02.41.23:576][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.09-02.41.23:610][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.666ms to complete.
+[2017.05.09-02.41.23:610][  0]LogFileHelpers: Loading map 'default' took 0.847
+[2017.05.09-02.41.23:710][  0]LogCollectionManager: Loaded 0 collections in 0.001097 seconds
+[2017.05.09-02.41.23:747][  0]LogFileCache: Scanning file cache for directory 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Saved/Collections/' took 0.01s
+[2017.05.09-02.41.23:747][  0]LogFileCache: Scanning file cache for directory 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Developers/StudentUser/Collections/' took 0.01s
+[2017.05.09-02.41.23:747][  0]LogFileCache: Scanning file cache for directory 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Collections/' took 0.01s
+[2017.05.09-02.41.23:747][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.09-02.41.23:756][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2164 classes and 432 folders.
+[2017.05.09-02.41.23:758][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.09-02.41.23:759][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.09-02.41.23:760][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 12 classes and 0 folders.
+[2017.05.09-02.41.23:763][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.09-02.41.23:795][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.05.09-02.41.23:799][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.05.09-02.41.23:812][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.09-02.41.23:821][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.09-02.41.23:847][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.05.09-02.41.23:847][  0]LogLoad: (Engine Initialization) Total time: 6.29 seconds
+[2017.05.09-02.41.23:847][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.05.09-02.41.23:847][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.09-02.41.23:847][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.09-02.41.24:187][  0]LogOcInput: OculusInput pre-init called
+[2017.05.09-02.41.24:202][  0]LogAssetRegistry: Asset discovery search completed in 3.3023 seconds
+[2017.05.09-02.41.24:202][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.05.09-02.41.24:202][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.05.09-02.41.24:204][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.09-02.41.24:325][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.05.09-02.41.32:944][501]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2017.05.09-02.41.39:365][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.41.39:365][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.09-02.41.39:366][ 83]PIE: New page: PIE session: default (May 8, 2017, 11:41:39 AM)
+[2017.05.09-02.41.39:366][ 83]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.09-02.41.39:529][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163654s)
+[2017.05.09-02.41.39:530][ 83]LogAIModule: Creating AISystem for world default
+[2017.05.09-02.41.39:530][ 83]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2017.05.09-02.41.39:531][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.164918s)
+[2017.05.09-02.41.39:565][ 83]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-02.41.39:573][ 83]LogInit: FAudioDevice initialized.
+[2017.05.09-02.41.39:686][ 83]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.09-02.41.39:729][ 83]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.08-19.41.39
+[2017.05.09-02.41.39:729][ 83]LogWorld: Bringing up level for play took: 0.042234
+[2017.05.09-02.41.39:733][ 83]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.05.09-02.41.39:733][ 83]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.41.39:733][ 83]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.41.39:733][ 83]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.41.39:735][ 83]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.41.39:750][ 83]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 1.265
+[2017.05.09-02.41.39:751][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.41.39:879][ 84]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:184).
+[2017.05.09-02.42.49:611][207]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.42.49:752][207]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.43.09:091][350]BlueprintLog: New page: Compile Vive_Pawn
+[2017.05.09-02.43.10:344][464]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.43.10:345][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.09-02.43.10:345][464]PIE: New page: PIE session: default (May 8, 2017, 11:43:10 AM)
+[2017.05.09-02.43.10:345][464]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.09-02.43.10:505][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160240s)
+[2017.05.09-02.43.10:505][464]LogAIModule: Creating AISystem for world default
+[2017.05.09-02.43.10:506][464]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2017.05.09-02.43.10:506][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.161429s)
+[2017.05.09-02.43.10:528][464]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-02.43.10:536][464]LogInit: FAudioDevice initialized.
+[2017.05.09-02.43.10:632][464]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.09-02.43.10:670][464]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.08-19.43.10
+[2017.05.09-02.43.10:671][464]LogWorld: Bringing up level for play took: 0.038126
+[2017.05.09-02.43.10:671][464]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.43.10:671][464]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.43.10:671][464]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.43.10:673][464]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.43.10:687][464]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.201
+[2017.05.09-02.43.10:687][464]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.44.09:676][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.44.09:826][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.45.02:751][ 81]BlueprintLog: New page: Compile Vive_Pawn
+[2017.05.09-02.45.39:242][ 46]BlueprintLog: New page: Compile BP_Arrow
+[2017.05.09-02.45.39:921][110]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.45.39:921][110]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.09-02.45.39:921][110]LogPlayLevel: [PlayLevel] Compiling Vive_Pawn before play...
+[2017.05.09-02.45.39:974][110]LogPlayLevel: [PlayLevel]   Compiling ABP_Bow as a dependent...
+[2017.05.09-02.45.40:139][110]LogPlayLevel: PlayLevel: Blueprint regeneration took 217 ms (2 blueprints)
+[2017.05.09-02.45.40:139][110]PIE: New page: PIE session: default (May 8, 2017, 11:45:40 AM)
+[2017.05.09-02.45.40:139][110]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.09-02.45.40:290][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150987s)
+[2017.05.09-02.45.40:290][110]LogAIModule: Creating AISystem for world default
+[2017.05.09-02.45.40:291][110]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2017.05.09-02.45.40:291][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.152360s)
+[2017.05.09-02.45.40:313][110]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-02.45.40:321][110]LogInit: FAudioDevice initialized.
+[2017.05.09-02.45.40:400][110]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.09-02.45.40:438][110]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.08-19.45.40
+[2017.05.09-02.45.40:438][110]LogWorld: Bringing up level for play took: 0.037837
+[2017.05.09-02.45.40:439][110]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.45.40:439][110]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.45.40:439][110]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.45.40:441][110]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.45.40:449][110]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.036
+[2017.05.09-02.45.40:450][110]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.46.38:845][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.46.38:986][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.47.46:917][119]BlueprintLog: New page: Compile Vive_Pawn
+[2017.05.09-02.47.48:734][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.47.48:734][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.09-02.47.48:734][287]PIE: New page: PIE session: default (May 8, 2017, 11:47:48 AM)
+[2017.05.09-02.47.48:734][287]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.09-02.47.48:892][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.157438s)
+[2017.05.09-02.47.48:892][287]LogAIModule: Creating AISystem for world default
+[2017.05.09-02.47.48:893][287]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2017.05.09-02.47.48:893][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.158819s)
+[2017.05.09-02.47.48:915][287]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-02.47.48:923][287]LogInit: FAudioDevice initialized.
+[2017.05.09-02.47.49:025][287]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.09-02.47.49:059][287]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.08-19.47.49
+[2017.05.09-02.47.49:060][287]LogWorld: Bringing up level for play took: 0.034248
+[2017.05.09-02.47.49:060][287]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.47.49:060][287]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.47.49:060][287]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.47.49:062][287]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.47.49:076][287]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.591
+[2017.05.09-02.47.49:077][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.47.51:483][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.47.51:630][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.48.00:889][447]BlueprintLog: New page: Compile BP_Arrow
+[2017.05.09-02.48.08:519][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.48.08:519][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.09-02.48.08:519][346]PIE: New page: PIE session: default (May 8, 2017, 11:48:08 AM)
+[2017.05.09-02.48.08:519][346]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.09-02.48.08:672][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152726s)
+[2017.05.09-02.48.08:672][346]LogAIModule: Creating AISystem for world default
+[2017.05.09-02.48.08:673][346]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2017.05.09-02.48.08:673][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.153973s)
+[2017.05.09-02.48.08:695][346]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-02.48.08:705][346]LogInit: FAudioDevice initialized.
+[2017.05.09-02.48.08:781][346]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.09-02.48.08:819][346]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.08-19.48.08
+[2017.05.09-02.48.08:819][346]LogWorld: Bringing up level for play took: 0.037523
+[2017.05.09-02.48.08:820][346]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.48.08:820][346]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.48.08:820][346]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.48.08:822][346]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.48.08:829][346]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.344
+[2017.05.09-02.48.08:830][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.56.16:734][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.56.16:874][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.59.04:247][338]BlueprintLog: New page: Compile Vive_Pawn
+[2017.05.09-02.59.05:546][449]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-02.59.05:546][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.09-02.59.05:546][449]PIE: New page: PIE session: default (May 8, 2017, 11:59:05 AM)
+[2017.05.09-02.59.05:546][449]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.09-02.59.05:697][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151207s)
+[2017.05.09-02.59.05:698][449]LogAIModule: Creating AISystem for world default
+[2017.05.09-02.59.05:698][449]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2017.05.09-02.59.05:699][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.152682s)
+[2017.05.09-02.59.05:722][449]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-02.59.05:729][449]LogInit: FAudioDevice initialized.
+[2017.05.09-02.59.05:828][449]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.09-02.59.05:865][449]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.08-19.59.05
+[2017.05.09-02.59.05:866][449]LogWorld: Bringing up level for play took: 0.036703
+[2017.05.09-02.59.05:867][449]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.59.05:867][449]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-02.59.05:867][449]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.59.05:869][449]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-02.59.05:882][449]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.603
+[2017.05.09-02.59.05:883][449]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-03.00.42:233][765]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-03.00.42:381][765]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-03.01.20:007][720]BlueprintLog: New page: Compile Vive_Pawn
+[2017.05.09-03.01.29:165][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-03.01.29:165][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.09-03.01.29:165][696]PIE: New page: PIE session: default (May 8, 2017, 12:01:29 PM)
+[2017.05.09-03.01.29:165][696]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.09-03.01.29:318][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153202s)
+[2017.05.09-03.01.29:319][696]LogAIModule: Creating AISystem for world default
+[2017.05.09-03.01.29:319][696]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2017.05.09-03.01.29:320][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.154557s)
+[2017.05.09-03.01.29:343][696]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.09-03.01.29:350][696]LogInit: FAudioDevice initialized.
+[2017.05.09-03.01.29:448][696]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.09-03.01.29:483][696]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.08-20.01.29
+[2017.05.09-03.01.29:484][696]LogWorld: Bringing up level for play took: 0.034935
+[2017.05.09-03.01.29:485][696]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-03.01.29:485][696]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.09-03.01.29:485][696]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-03.01.29:487][696]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.09-03.01.29:501][696]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 1.016
+[2017.05.09-03.01.29:502][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-03.02.54:157][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-03.02.54:308][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.09-03.05.27:056][286]LogSavePackage: Save=74.41ms
+[2017.05.09-03.05.27:056][286]LogSavePackage: Moving 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Saved/Vive_Pawn4249C15B44902E1EF2B720937E37509E.tmp' to 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Blueprints/Vive_Pawn.uasset'
+[2017.05.09-03.05.27:059][286]LogSavePackage:Display: Finished SavePackage C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Blueprints/Vive_Pawn.uasset
+[2017.05.09-03.05.27:097][286]LogSavePackage: Save=17.14ms
+[2017.05.09-03.05.27:097][286]LogSavePackage: Moving 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Saved/BP_Arrow0563C79B4E4C5C06A267BA855D3B2C48.tmp' to 'C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Blueprints/BP_Arrow.uasset'
+[2017.05.09-03.05.27:099][286]LogSavePackage:Display: Finished SavePackage C:/Users/StudentUser/Documents/Github/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master/Content/Vive/Blueprints/BP_Arrow.uasset
+[2017.05.09-03.06.35:001][166]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.06.37:253][422]LogEditorTransaction: Undo Rename Component Variable
+[2017.05.09-03.06.39:634][701]LogEditorTransaction: Undo Move Node
+[2017.05.09-03.06.41:647][932]LogEditorTransaction: Redo Move Node
+[2017.05.09-03.06.41:942][961]LogEditorTransaction: Redo Rename Component Variable
+[2017.05.09-03.06.45:522][344]Cmd: TRANSACTION REDO
+[2017.05.09-03.06.45:522][344]LogEditorTransaction: Redo Modify Component(s)
+[2017.05.09-03.06.46:414][422]Cmd: TRANSACTION UNDO
+[2017.05.09-03.06.46:414][422]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.06.47:420][515]Cmd: TRANSACTION UNDO
+[2017.05.09-03.06.47:420][515]LogEditorTransaction: Undo Rename Component Variable
+[2017.05.09-03.06.48:329][601]Cmd: TRANSACTION UNDO
+[2017.05.09-03.06.48:329][601]LogEditorTransaction: Undo Move Node
+[2017.05.09-03.06.48:692][623]Cmd: TRANSACTION UNDO
+[2017.05.09-03.06.48:692][623]LogEditorTransaction: Undo Create Pin Link
+[2017.05.09-03.06.49:691][708]Cmd: TRANSACTION REDO
+[2017.05.09-03.06.49:691][708]LogEditorTransaction: Redo Create Pin Link
+[2017.05.09-03.06.49:885][712]Cmd: TRANSACTION REDO
+[2017.05.09-03.06.49:885][712]LogEditorTransaction: Redo Move Node
+[2017.05.09-03.06.50:110][720]Cmd: TRANSACTION REDO
+[2017.05.09-03.06.50:110][720]LogEditorTransaction: Redo Rename Component Variable
+[2017.05.09-03.06.50:316][734]Cmd: TRANSACTION REDO
+[2017.05.09-03.06.50:316][734]LogEditorTransaction: Redo Modify Component(s)
+[2017.05.09-03.06.53:733][ 71]Cmd: TRANSACTION UNDO
+[2017.05.09-03.06.53:733][ 71]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.07.07:350][612]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.07.08:277][710]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.07.09:108][805]LogEditorTransaction: Undo Rename Component Variable
+[2017.05.09-03.07.10:528][970]LogEditorTransaction: Redo Rename Component Variable
+[2017.05.09-03.07.14:312][321]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.07.18:775][710]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.07.23:289][180]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.07.26:869][511]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.09-03.07.36:777][265]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.05.09-03.07.39:988][265]LogCrashTracker: 
+
+
+[2017.05.09-03.07.39:988][265]LogCrashTracker: 
+
+
+[2017.05.09-03.07.39:988][265]LogWindows:Error: === Critical error: ===
+[2017.05.09-03.07.39:988][265]LogWindows:Error: 
+[2017.05.09-03.07.39:988][265]LogWindows:Error: Assertion failed: InWorld != nullptr [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\EditorBrushBuilder.cpp] [Line: 40] 
+[2017.05.09-03.07.39:988][265]LogWindows:Error: 
+[2017.05.09-03.07.39:988][265]LogWindows:Error: 
+[2017.05.09-03.07.39:988][265]LogWindows:Error: 
+[2017.05.09-03.07.39:988][265]LogWindows:Error: KERNELBASE.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Core.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Core.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Core.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-CoreUObject.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-UnrealEd.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Kismet.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Kismet.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor-Slate.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor.exe
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor.exe
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor.exe
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor.exe
+[2017.05.09-03.07.39:988][265]LogWindows:Error: UE4Editor.exe
+[2017.05.09-03.07.39:988][265]LogWindows:Error: KERNEL32.DLL
+[2017.05.09-03.07.39:988][265]LogWindows:Error: ntdll.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: ntdll.dll
+[2017.05.09-03.07.39:988][265]LogWindows:Error: 
+[2017.05.09-03.07.40:012][265]LogExit: Executing StaticShutdownAfterError
+[2017.05.09-03.07.40:030][265]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.05.09-03.07.40:042][265]Log file closed, 05/08/17 20:07:40
