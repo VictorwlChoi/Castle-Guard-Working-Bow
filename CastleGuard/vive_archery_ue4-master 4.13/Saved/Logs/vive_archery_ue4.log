@@ -8800,4 +8800,201 @@ Script call stack:
 	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:024F
 [2017.05.28-05.22.08:326][795]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Attempted to assign to None
 [2017.05.28-05.22.08:326][795]LogScript:Warning: Accessed None trying to read property BatteringRam
-	
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:01A6
+[2017.05.28-05.22.08:326][795]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: AttachToComponent in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.22.09:920][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.22.09:975][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.23.22:216][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.23.22:216][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-05.23.22:217][528]PIE: New page: SIE session: default (May 27, 2017, 2:23:22 PM)
+[2017.05.28-05.23.22:217][528]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.28-05.23.22:375][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158761s)
+[2017.05.28-05.23.22:376][528]LogAIModule: Creating AISystem for world default
+[2017.05.28-05.23.22:376][528]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2017.05.28-05.23.22:377][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.160066s)
+[2017.05.28-05.23.22:402][528]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-05.23.22:409][528]LogInit: FAudioDevice initialized.
+[2017.05.28-05.23.22:442][528]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.28-05.23.22:481][528]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.27-22.23.22
+[2017.05.28-05.23.22:483][528]LogWorld: Bringing up level for play took: 0.040388
+[2017.05.28-05.23.22:484][528]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.28-05.23.22:485][528]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.28-05.23.22:485][528]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default 0.007
+[2017.05.28-05.23.22:493][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.23.23:811][661]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0288
+[2017.05.28-05.23.23:811][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Branch in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.23:811][661]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:020B
+[2017.05.28-05.23.23:811][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.23:811][661]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:023A
+[2017.05.28-05.23.23:811][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.23:811][661]LogScript:Warning: Attempted to assign to None
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:024F
+[2017.05.28-05.23.23:811][661]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Attempted to assign to None
+[2017.05.28-05.23.23:811][661]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:01A6
+[2017.05.28-05.23.23:811][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: AttachToComponent in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.25:910][911]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0288
+[2017.05.28-05.23.25:910][911]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Branch in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.25:911][911]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:020B
+[2017.05.28-05.23.25:911][911]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.25:911][911]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:023A
+[2017.05.28-05.23.25:911][911]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.25:911][911]LogScript:Warning: Attempted to assign to None
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:024F
+[2017.05.28-05.23.25:911][911]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Attempted to assign to None
+[2017.05.28-05.23.25:911][911]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:01A6
+[2017.05.28-05.23.25:911][911]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: AttachToComponent in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.28:258][192]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0288
+[2017.05.28-05.23.28:258][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Branch in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.28:258][192]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:020B
+[2017.05.28-05.23.28:258][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.28:258][192]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:023A
+[2017.05.28-05.23.28:258][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.28:258][192]LogScript:Warning: Attempted to assign to None
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:024F
+[2017.05.28-05.23.28:258][192]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Attempted to assign to None
+[2017.05.28-05.23.28:258][192]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:01A6
+[2017.05.28-05.23.28:259][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: AttachToComponent in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.23.36:091][ 41]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.23.36:152][ 41]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.24.35:545][ 69]LogEditorTransaction: Undo Move Node
+[2017.05.28-05.25.04:506][489]BlueprintLog: New page: Compile ArcherAI
+[2017.05.28-05.25.39:759][576]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.25.39:759][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-05.25.39:759][576]PIE: New page: SIE session: default (May 27, 2017, 2:25:39 PM)
+[2017.05.28-05.25.39:759][576]LogPlayLevel: Creating play world package: /Game/Vive/Maps/UEDPIE_0_default
+[2017.05.28-05.25.39:922][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163297s)
+[2017.05.28-05.25.39:923][576]LogAIModule: Creating AISystem for world default
+[2017.05.28-05.25.39:923][576]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2017.05.28-05.25.39:924][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Vive/Maps/default.default to /Game/Vive/Maps/UEDPIE_0_default.default (0.164902s)
+[2017.05.28-05.25.39:951][576]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-05.25.39:958][576]LogInit: FAudioDevice initialized.
+[2017.05.28-05.25.39:993][576]LogWorld: Game class is 'ViveGameMode_C'
+[2017.05.28-05.25.40:032][576]LogWorld: Bringing World /Game/Vive/Maps/UEDPIE_0_default.default up for play (max tick rate 0) at 2017.05.27-22.25.40
+[2017.05.28-05.25.40:035][576]LogWorld: Bringing up level for play took: 0.041001
+[2017.05.28-05.25.40:035][576]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.28-05.25.40:036][576]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.28-05.25.40:036][576]PIE: Info Play in editor start time for /Game/Vive/Maps/UEDPIE_0_default -0.441
+[2017.05.28-05.25.40:044][576]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.25.41:357][712]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02F3
+[2017.05.28-05.25.41:357][712]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Branch in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.41:357][712]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0276
+[2017.05.28-05.25.41:357][712]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.41:357][712]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02A5
+[2017.05.28-05.25.41:357][712]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.41:357][712]LogScript:Warning: Attempted to assign to None
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02BA
+[2017.05.28-05.25.41:357][712]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Attempted to assign to None
+[2017.05.28-05.25.41:357][712]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 537
+[2017.05.28-05.25.41:357][712]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ReceiveActorBeginOverlap
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI
+
+[2017.05.28-05.25.45:848][712]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0236
+[2017.05.28-05.25.45:849][712]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Set HandleAttached in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.45:849][712]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI_2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:01D9
+[2017.05.28-05.25.45:849][712]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: AttachToComponent in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.46:440][781]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02F3
+[2017.05.28-05.25.46:440][781]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Branch in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.46:440][781]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0276
+[2017.05.28-05.25.46:440][781]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.46:440][781]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02A5
+[2017.05.28-05.25.46:440][781]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.46:440][781]LogScript:Warning: Attempted to assign to None
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02BA
+[2017.05.28-05.25.46:440][781]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Attempted to assign to None
+[2017.05.28-05.25.46:440][781]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0236
+[2017.05.28-05.25.46:440][781]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Set HandleAttached in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.46:440][781]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI3
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:01D9
+[2017.05.28-05.25.46:440][781]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: AttachToComponent in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.48:790][ 58]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02F3
+[2017.05.28-05.25.48:790][ 58]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Branch in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.48:790][ 58]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0276
+[2017.05.28-05.25.48:791][ 58]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.48:791][ 58]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02A5
+[2017.05.28-05.25.48:791][ 58]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.48:791][ 58]LogScript:Warning: Attempted to assign to None
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:02BA
+[2017.05.28-05.25.48:791][ 58]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_ArcherAI' from node: IncrementInt in graph: EventGraph in object: ArcherAI with description: Attempted to assign to None
+[2017.05.28-05.25.48:791][ 58]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:0236
+[2017.05.28-05.25.48:791][ 58]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: Set HandleAttached in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.25.48:791][ 58]LogScript:Warning: Accessed None trying to read property BatteringRam
+	ArcherAI_C /Game/Vive/Maps/UEDPIE_0_default.default:PersistentLevel.ArcherAI2
+	Function /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI_C:ExecuteUbergraph_ArcherAI:01D9
+[2017.05.28-05.25.48:791][ 58]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property BatteringRam from function: 'ExecuteUbergraph_ArcherAI' from node: AttachToComponent in graph: EventGraph in object: ArcherAI with description: Accessed None trying to read property BatteringRam
+[2017.05.28-05.26.02:427][607]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.26.02:488][607]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Vive/Maps/default.default:PersistentLevel' has LevelScriptBlueprint '/Game/Vive/Maps/default.default:PersistentLevel.default' with GeneratedClass '/Game/Vive/Maps/default.default_C' with ClassGeneratedBy '/Game/Vive/Maps/default.default:PersistentLevel.default'
+[2017.05.28-05.27.09:801][449]LogSavePackage: Save=1316.20ms
+[2017.05.28-05.27.09:801][449]LogSavePackage: Moving 'C:/Users/StudentUser/Documents/GitHub/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/default_Auto7FE22AFD4433227F54E3D27B2F448B289.tmp' to 'C:/Users/StudentUser/Documents/GitHub/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/Autosaves/Game/Vive/Maps/default_Auto7.umap'
+[2017.05.28-05.27.09:803][449]LogSavePackage:Display: Finished SavePackage C:/Users/StudentUser/Documents/GitHub/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/Autosaves/Game/Vive/Maps/default_Auto7.umap
+[2017.05.28-05.27.09:805][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Vive/Maps/default' took 1.358
+[2017.05.28-05.27.09:806][449]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.358
+[2017.05.28-05.27.09:807][449]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vive/Blueprints/AI/ArcherAI] ([1] browsable assets)...
+[2017.05.28-05.27.09:818][449]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Vive/Blueprints/AI/ArcherAI.ArcherAI]
+[2017.05.28-05.27.09:818][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vive/Blueprints/AI/ArcherAI]
+[2017.05.28-05.27.09:871][449]LogSavePackage: Save=44.09ms
+[2017.05.28-05.27.09:871][449]LogSavePackage: Moving 'C:/Users/StudentUser/Documents/GitHub/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/ArcherAI_Auto7DB7B1C8D4317E97762C5E894E606ACD9.tmp' to 'C:/Users/StudentUser/Documents/GitHub/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/Autosaves/Game/Vive/Blueprints/AI/ArcherAI_Auto7.uasset'
+[2017.05.28-05.27.09:872][449]LogSavePackage:Display: Finished SavePackage C:/Users/StudentUser/Documents/GitHub/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/Autosaves/Game/Vive/Blueprints/AI/ArcherAI_Auto7.uasset
+[2017.05.28-05.27.09:873][449]LogFileHelpers: Auto-saving content packages took 0.066
+[2017.05.28-05.27.35:614][860]LogSavePackage: Save=1310.64ms
+[2017.05.28-05.27.35:614][860]LogSavePackage: Moving 'C:/Users/StudentUser/Documents/GitHub/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/default736D8BCE43E9511A13DE1399228E750E.tmp' to 'C:/Users/StudentUser/Documents/GitHub/272072/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Content/Vive/Maps/default.umap'
+[2017.05.
