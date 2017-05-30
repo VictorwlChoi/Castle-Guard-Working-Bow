@@ -1,6 +1,0 @@
-﻿  Compiling game modules for hot reload
-  Performing 2 actions (4 in parallel)
-  MyClass.cpp
-  [2/2] Link UE4Editor-vive_archery_ue4-1988.dll
-     Creating library E:\vive_archery_ue4-master\vive_archery_ue4-master\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-vive_archery_ue4-1988.lib and object E:\vive_archery_ue4-master\vive_archery_ue4-master\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-vive_archery_ue4-1988.exp
-  Total build time: 3.74 seconds
