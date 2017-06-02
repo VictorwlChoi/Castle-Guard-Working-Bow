@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 "E:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\vive_archery_ue4.h.obj"
 "E:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\MyClass.cpp.obj"
 "E:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\vive_archery_ue4.cpp.obj"
 "E:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\PCLaunch.rc.res"
 "E:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\ModuleVersionResource.rc.inl.res"
+=======
+"D:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\vive_archery_ue4.h.obj"
+"D:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\MyClass.cpp.obj"
+"D:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\vive_archery_ue4.cpp.obj"
+"D:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\PCLaunch.rc.res"
+"D:\CGLD\Castle-Guard-Working-Bow\CastleGuard\vive_archery_ue4-master 4.13\Intermediate\Build\Win64\UE4Editor\Development\vive_archery_ue4\ModuleVersionResource.rc.inl.res"
+>>>>>>> refs/remotes/origin/master
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -27,7 +35,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"E:\Unreal Engine\UE_4.13\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
-"E:\Unreal Engine\UE_4.13\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
-"E:\Unreal Engine\UE_4.13\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
-"E:\Unreal Engine\UE_4.13\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+"D:\Unreal Engine\4.13\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"D:\Unreal Engine\4.13\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"D:\Unreal Engine\4.13\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"D:\Unreal Engine\4.13\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
