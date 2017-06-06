@@ -1,9 +1,9 @@
-﻿Log file open, 06/01/17 22:39:11
+﻿Log file open, 06/05/17 19:52:24
 LogInit:Display: Running engine for game: vive_archery_ue4
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1063005549) SRandInit(-1063005549).
+LogInit:Display: RandInit(857804499) SRandInit(857804499).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.068927
+LogStats: Stats thread started at 0.067530
 LogPluginManager: Loaded Plugin Paper2D, From E:/Unreal Engine/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -141,7 +141,7 @@ LogStats: FPlatformStackWalk::StackWalkAndDump -  0.004 s
 LogOutputDevice:Error: === Handled ensure: ===
 LogOutputDevice:Error: 
 LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Core\Private\Misc\ConfigCacheIni.cpp] [Line: 3448]
-LogOutputDevice:Error: The ini file 'E:/CGLD/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/Config/Windows/Engine.ini' tries to set the console variable 'showflag.decals' marked with ECVF_Cheat, this is only allowed in consolevariables.ini
+LogOutputDevice:Error: The ini file 'E:/Castle-Guard-Working-Bow/CastleGuard/vive_archery_ue4-master 4.13/Saved/Config/Windows/Engine.ini' tries to set the console variable 'showflag.decals' marked with ECVF_Cheat, this is only allowed in consolevariables.ini
 LogOutputDevice:Error: Stack: 
 LogOutputDevice:Error: UE4Editor-Core.dll
 LogOutputDevice:Error: UE4Editor-Core.dll

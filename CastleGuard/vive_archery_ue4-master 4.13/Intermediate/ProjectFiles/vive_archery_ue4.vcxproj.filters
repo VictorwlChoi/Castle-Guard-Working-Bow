@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\vive_archery_ue4.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{7604D4B4-5274-4A4F-AC85-6A0828F5A992}</UniqueIdentifier>
+			<UniqueIdentifier>{F3FA5C0A-10AA-4CE6-9901-3179D4C95ED5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\vive_archery_ue4.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{1506C052-53C9-4BCB-ABAF-19E7E6B778E8}</UniqueIdentifier>
+			<UniqueIdentifier>{7A785125-5FB6-4E31-B6F0-E7F5166AEB25}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\vive_archery_ue4">
-			<UniqueIdentifier>{DE43B531-1A44-47AF-9904-F1E6833F9A3F}</UniqueIdentifier>
+			<UniqueIdentifier>{0AB9FE34-4E33-4B05-9AFF-AA67D948DE33}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\vive_archery_ue4\MyClass.cpp">
 			<Filter>Source\vive_archery_ue4</Filter>
